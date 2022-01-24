@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+* {margin: 0;padding:0;}
+body {font-family: 'Raleway', sans-serif; font-size: 14px; overflow-x: hidden;background-color: #000000;}
+a {text-decoration: none; outline: none; cursor: pointer;}
+:hover {transition: color 0.3s ease 0s;}
+img {max-width: 100%;}
+
+@-webkit-keyframes fadeIn {from {opacity: 0;} to {opacity: 1;}}
+@keyframes fadeIn {from {opacity: 0;} to {opacity: 1;}}
+@-webkit-keyframes fly {from {top: 100%;} to {top:9%;}}
+@keyframes fly {from {top: 100%;} to {top:9%;}}
+
+/* Wide Desktop */
+@media screen and (min-width:1440px) {
+  .mobile {display: none;}
+  .desktop {animation: fadeIn 1.5s ease-out;position: absolute; top:0; bottom:0; left:0; right:0; background-repeat: no-repeat; background-size: cover; background-position: center;z-index: 1;}
+  .page_bg {position: fixed;left:0;right:0;top:0;bottom:0;display:inline-block;}
+  .page_bg #l {position: absolute;left:0;width:50%;height:100%;background-color: #151515;}
+  .page_bg #r {position: absolute;right:0;width:50%;height:100%;background-color: #f3f3f3;}
+  .desktop #filter {position: absolute; top:0; bottom:0; left:0; right:0; background: linear-gradient(20deg, rgba(0,0,0,1) 0%, rgba(188,188,188,0.15) 100%);z-index:2;}
+  .l_block {position:fixed;top:9%; bottom:9%; left:18%; width:32%;color:#f3f3f3;z-index: 3;}
+  .l_block #s_title {font-size: 35px; font-weight: 600;}
+  .l_block #b_title {font-size: 100px; font-weight: 700; margin-top:15px;}
+  .l_block hr {width: 30%; height:6px; background-color:#e3e3e3; margin:70px 0;}
+  .l_block .a_pages {margin-top:3%;line-height: 65px;z-index: 4;}
+  .l_block .a_pages a {font-size: 35px; font-weight: 700; color:#e3e3e3;}
+  .l_block .a_pages a:hover {color:#ea3737;}
+  .l_block .a_pages p {font-size: 35px; font-weight: 700;color:#ea3737;}
+  .l_block .bottom {display: flex;flex-direction: row;position: absolute;left:0;bottom:0;z-index: 4;}
+  .l_block .bottom #buy_button {border: 2px solid #e3e3e3; border-radius: 10px;color:#e3e3e3;font-size: 18px;font-weight: 700;padding:8px 15px;}
+  .l_block .bottom #buy_button:hover {background-color: #777777;}
+  .l_block .bottom #telegram {border-radius: 21px;margin-left: 30px;display: block;width: 41px;height: 41px;background-image: url('img/telegram.png');background-position: center;background-size: contain;}
+  .l_block .bottom #telegram:hover {background-color:#0088cc;}
+  .l_block .bottom #whatsapp {border-radius: 21px 21px 21px 0;margin-left: 30px;display: block;width: 41px;height: 41px;background-image: url('img/whatsapp.png');background-position: center;background-size: contain;}
+  .l_block .bottom #whatsapp:hover {background-color:#128C7E;}
+  .r_block {position:absolute;top:9%; bottom:9%; right:0; width:50%; display:flex;justify-content: center; align-items: center; z-index: 3;}
+  .r_block .works #viewer {top:0%;right:0;width:100%;height:50%;background-color: #eeeeee;}
+  .r_block .works {position: absolute;width:90%;height:100%;display:grid;grid-template-rows: 1fr 1fr 1fr;grid-template-columns:1fr 1fr 1fr 1fr;justify-content: center;align-items: center;}
+  .r_block .works #pic {width:180px;height:180px;border:2px solid #151515;background-size: cover;margin: 0 auto auto auto;}
+  .r_block .works #pic:hover {border-color: #ea3737;}
+  #ph {opacity: .85;position: absolute;top:0;right:0;height:100%;width:50%;background-image: url('img/ph.png');background-size: contain;background-repeat: no-repeat;background-position: right;}
+  .r_block #text {}
+
+  #credits {position: absolute;text-align: right;bottom:-16px;}
+}
+
+/* Small Desktop */
+@media screen and (max-width:1439px) {
+  .mobile {display: none;}
+
+/* Phone */
+@media screen and (max-width:420px) {
+
+}
