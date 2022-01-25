@@ -33,14 +33,19 @@ img {max-width: 100%;}
   .l_block .bottom #telegram:hover {background-color:#0088cc;}
   .l_block .bottom #whatsapp {border-radius: 21px 21px 21px 0;margin-left: 30px;display: block;width: 41px;height: 41px;background-image: url('img/whatsapp.png');background-position: center;background-size: contain;}
   .l_block .bottom #whatsapp:hover {background-color:#128C7E;}
-  .r_block {position:absolute;top:9%; bottom:9%; right:0; width:50%; display:flex;justify-content: center; align-items: center; z-index: 3;}
-  .r_block .works #viewer {top:0%;right:0;width:100%;height:50%;background-color: #eeeeee;}
+  .viewer {position: absolute;top:-50%;right:0;width:50%;height:50%;background-color: #eeeeee;z-index: 4;}
+  .r_block {position:absolute;display: flex;top:9%; bottom:9%; right:0; width:50%; display:flex; z-index: 3;justify-content: center;align-items: center;}
   .r_block .works {position: absolute;width:90%;height:100%;display:grid;grid-template-rows: 1fr 1fr 1fr;grid-template-columns:1fr 1fr 1fr 1fr;justify-content: center;align-items: center;}
   .r_block .works #pic {width:180px;height:180px;border:2px solid #151515;background-size: cover;margin: 0 auto auto auto;}
   .r_block .works #pic:hover {border-color: #ea3737;}
   #ph {opacity: .85;position: absolute;top:0;right:0;height:100%;width:50%;background-image: url('img/ph.png');background-size: contain;background-repeat: no-repeat;background-position: right;}
-  .r_block #text {}
-
+  .r_block #text {position: absolute;top:0;right:0;border-bottom: 0;width: 100%;height: 100%;}
+  table {position: absolute;left:10%;top:0;bottom: 0;height: 100%;border-left: 1px solid #dddddd;}
+  td {text-align: left;padding-left: 20px;vertical-align: top;font-size: 1.2em;}
+  #year {font-weight: 700;color:#333333;}
+  tr:before {content:'';display:block;width:1.2em;height:1.2em;margin: auto 0 auto -10px;border-radius:1em;background-color: #dddddd;vertical-align: middle;}
+  tr:hover, tr:hover > #year {color:#ea3737;}
+  tr:before:hover {background-color:#ea3737;}
   #credits {position: absolute;text-align: right;bottom:-16px;}
 }
 
