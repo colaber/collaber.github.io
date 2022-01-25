@@ -39,9 +39,9 @@
       <div id="b_title">Николай<br>Климов</div>
       <hr>
       <div class="a_pages">
-        <a href="/painting">Живопись</a><br>
-        <a href="/icon">Икона</a><br>
-        <a href="/bio">Биография</a>
+        <a href="/painting.php">Живопись</a><br>
+        <a href="/icon.php">Икона</a><br>
+        <a href="/bio.php">Биография</a>
       </div>
       <div class="bottom">
         <a href="/" id="buy_button">Купить работу</a>
