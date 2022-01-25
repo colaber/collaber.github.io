@@ -27,6 +27,13 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="ya-title=#151515,ya-dock=fade">
   <link rel="stylesheet" href="general.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript">
+  $('#pic').click(function () {
+      $('.viewer').css('top', '0')
+      });
+  });
+  </script>
 </head>
 <body>
   <div class="desktop" style="background-image: none;">
@@ -46,10 +53,10 @@
         <a href="https://wa.me/79175564100" id="whatsapp"></a>
       </div>
     </div>
+    <div class="viewer"></div>
     <div class="r_block">
-      <div id="viewer"></div>
       <div class="works">
-        <div id="pic" style="background-image:url('img/bg.png');"></div>
+        <div id="pic" style="background-image:url('img/bg.png');"  onclick="show_viewer()"></div>
         <div id="pic" style="background-image:url('img/bg.png');"></div>
         <div id="pic" style="background-image:url('img/bg.png');"></div>
         <div id="pic" style="background-image:url('img/bg.png');"></div>

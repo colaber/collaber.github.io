@@ -4,8 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Живопись / Художник Николай Климов</title>
+  <title>Художник Николай Климов</title>
+  <meta name="description" content="Живопись. Иконопись. Библейские сюжеты и пасторальный жанр">
+  <meta name="keywords" content="картина, живопись, икона, иконопись, живописец, художник, библейский сюжет, пастораль, Климов">
   <meta name="robots" content="index,follow,noodp">
+  <meta name="googlebot" content="index,follow">
   <meta property="og:locale" content="ru_RU">
   <link rel="apple-touch-icon" sizes="57x57" href="/icons/icon57x57.png" data-mce-href="/icons/icon57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/icons/icon60x60.png" data-mce-href="/icons/icon60x60.png">
@@ -29,16 +32,16 @@
   <link rel="stylesheet" href="general.css">
 </head>
 <body>
-  <div class="desktop" style="background-image: none;">
-    <div class="page_bg"><div id="l"></div><div id="r"></div></div>
+  <div class="desktop" style="background-image: url('img/bg.png');">
+    <div id="filter"></div>
     <div class="l_block">
       <div id="s_title">художник</div>
       <div id="b_title">Николай<br>Климов</div>
       <hr>
       <div class="a_pages">
         <a href="/painting">Живопись</a><br>
-        <a href="/icon">Икона</a>
-        <p>Биография</p>
+        <a href="/icon">Икона</a><br>
+        <a href="/bio">Биография</a>
       </div>
       <div class="bottom">
         <a href="/" id="buy_button">Купить работу</a>
@@ -46,45 +49,8 @@
         <a href="https://wa.me/79175564100" id="whatsapp"></a>
       </div>
     </div>
-    <div id="ph"></div>
     <div class="r_block">
-      <div id="text">
-        <table>
-          <tr>
-            <td id="year">1961</td>
-            <td>Родился в Москве</td>
-          </tr>
-          <tr>
-            <td id="year">1968</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td id="year">1977</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td id="year">1980</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td id="year">1988</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td id="year">1991</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td id="year">1996</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td id="year">2001</td>
-            <td></td>
-          </tr>
-        </table>
-      </div>
-      <p id="credits" style="color:#151515;">Все права защищены &#169; 2021 Николай Климов</p>
+      <p id="credits" style="color:#f3f3f3;">Все права защищены &#169; 2021 Николай Климов</p>
     </div>
   </div>
   <div class="mobile">

@@ -46,8 +46,8 @@
         <a href="https://wa.me/79175564100" id="whatsapp"></a>
       </div>
     </div>
+    <div class="viewer"></div>
     <div class="r_block">
-      <div id="viewer"></div>
       <div class="works">
         <div id="pic" style="background-image:url('img/bg.png');"></div>
         <div id="pic" style="background-image:url('img/bg.png');"></div>
